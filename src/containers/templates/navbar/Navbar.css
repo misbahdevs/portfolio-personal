@@ -1,0 +1,16 @@
+.navbar {
+  height: 80px;
+}
+.navbar .container .navbar-brand {
+  font-weight: 700;
+  color: #012b52;
+}
+.navbar .container .navbar-brand span {
+  margin-left: 5px;
+}
+.navbar .container .navbar-nav a {
+  color: #012b52;
+}
+.navbar .container .navbar-nav a:hover {
+  font-weight: 600;
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,23 @@
+.navbar {
+  height: 80px;
+
+  .container {
+    .navbar-brand {
+      font-weight: 700;
+      color: #012b52;
+
+      span {
+        margin-left: 5px;
+      }
+    }
+
+    .navbar-nav {
+      a {
+        color: #012b52;
+      }
+      a:hover {
+        font-weight: 600;
+      }
+    }
+  }
+}

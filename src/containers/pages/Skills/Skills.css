@@ -1,0 +1,119 @@
+#skills {
+  width: 100%;
+}
+#skills .x-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills .x-content h2 {
+  font-weight: 700;
+  color: #012b52;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+#skills .x-content .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#skills .x-content .content .x-left {
+  width: 47%;
+}
+#skills .x-content .content .x-left .box-skill {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills .x-content .content .x-left .box-skill h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #012b52;
+  margin-bottom: 20px;
+}
+#skills .x-content .content .x-left .box-skill .list-skills {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#skills .x-content .content .x-left .box-skill .list-skills .skill {
+  display: flex;
+  justify-content: space-between;
+}
+#skills .x-content .content .x-left .box-skill .list-skills .skill .box {
+  display: flex;
+  justify-content: space-between;
+}
+#skills .x-content .content .x-left .box-skill .list-skills .skill .box div:first-child {
+  margin-right: 10px;
+}
+#skills .x-content .content .x-left .box-skill .list-skills .skill .box div:first-child i {
+  font-size: 25px;
+  color: #305c85;
+}
+#skills .x-content .content .x-left .box-skill .list-skills .skill .box div:last-child .name-list-skill {
+  font-size: 15px;
+  font-weight: 700;
+  color: #012b52;
+  margin-top: 6px;
+}
+#skills .x-content .content .x-left .box-skill .list-skills .skill .box div:last-child .desc-list-skill {
+  font-size: 13px;
+  color: #305c85;
+  margin-top: -10px;
+}
+#skills .x-content .content .x-right {
+  width: 47%;
+}
+#skills .x-content .content .x-right .box-skill {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills .x-content .content .x-right .box-skill h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #012b52;
+  margin-bottom: 20px;
+}
+#skills .x-content .content .x-right .box-skill .list-skills {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#skills .x-content .content .x-right .box-skill .list-skills .skill {
+  display: flex;
+  justify-content: space-between;
+}
+#skills .x-content .content .x-right .box-skill .list-skills .skill .box {
+  display: flex;
+  justify-content: space-between;
+}
+#skills .x-content .content .x-right .box-skill .list-skills .skill .box div:first-child {
+  margin-right: 10px;
+}
+#skills .x-content .content .x-right .box-skill .list-skills .skill .box div:first-child i {
+  font-size: 25px;
+  color: #305c85;
+}
+#skills .x-content .content .x-right .box-skill .list-skills .skill .box div:last-child .name-list-skill {
+  font-size: 15px;
+  font-weight: 700;
+  color: #012b52;
+  margin-top: 6px;
+}
+#skills .x-content .content .x-right .box-skill .list-skills .skill .box div:last-child .desc-list-skill {
+  font-size: 13px;
+  color: #305c85;
+  margin-top: -10px;
+}/*# sourceMappingURL=Skills.css.map */

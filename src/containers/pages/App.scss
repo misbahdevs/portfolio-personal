@@ -1,0 +1,134 @@
+.App_load {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .circle-one {
+    position: absolute;
+    width: 964px;
+    height: 871px;
+    left: -229px;
+    top: -167px;
+    z-index: -1;
+    display: grid;
+    place-items: center;
+
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ff70df 0%,
+      rgba(255, 112, 223, 0) 100%
+    );
+    filter: blur(400px);
+  }
+  .circle-two {
+    position: absolute;
+    width: 750px;
+    height: 697px;
+    left: 838px;
+    top: 478px;
+    z-index: -1;
+
+    background: #60e2ff;
+    filter: blur(400px);
+  }
+}
+.App {
+  .circle-one {
+    position: absolute;
+    width: 964px;
+    height: 871px;
+    left: -229px;
+    top: -167px;
+    z-index: -1;
+
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ff70df 0%,
+      rgba(255, 112, 223, 0) 100%
+    );
+    filter: blur(400px);
+  }
+  .circle-two {
+    position: absolute;
+    width: 750px;
+    height: 697px;
+    left: 838px;
+    top: 478px;
+    z-index: -1;
+
+    background: #60e2ff;
+    filter: blur(400px);
+  }
+  .circle-tree {
+    position: absolute;
+    width: 964px;
+    height: 871px;
+    left: -263px;
+    top: 1532px;
+    z-index: -1;
+
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ff70df 0%,
+      rgba(255, 112, 223, 0) 100%
+    );
+    filter: blur(400px);
+  }
+  .circle-for {
+    position: absolute;
+    width: 750px;
+    height: 697px;
+    left: 901px;
+    top: 2448px;
+    z-index: -1;
+
+    background: #60e2ff;
+    filter: blur(400px);
+  }
+  .circle-five {
+    position: absolute;
+    width: 964px;
+    height: 871px;
+    left: 537px;
+    top: 3549px;
+    z-index: -1;
+
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ff70df 0%,
+      rgba(255, 112, 223, 0) 100%
+    );
+    filter: blur(400px);
+  }
+  .circle-six {
+    position: absolute;
+    width: 750px;
+    height: 697px;
+    left: -143px;
+    top: 4318px;
+    z-index: -1;
+
+    background: #60e2ff;
+    filter: blur(400px);
+  }
+  .circle-seven {
+    position: absolute;
+    width: 964px;
+    height: 871px;
+    left: 495px;
+    top: 5777px;
+    z-index: -1;
+
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ff70df 0%,
+      rgba(255, 112, 223, 0) 100%
+    );
+    filter: blur(400px);
+  }
+}

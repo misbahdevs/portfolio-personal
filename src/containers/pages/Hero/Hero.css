@@ -1,0 +1,74 @@
+#hero .x-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .x-content .x-left {
+  padding-top: 80px;
+  width: 48%;
+}
+#hero .x-content .x-left span {
+  font-size: 24px;
+  color: #305c85;
+  display: block;
+  margin-bottom: 10px;
+}
+#hero .x-content .x-left h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #012b52;
+  margin-bottom: 10px;
+}
+#hero .x-content .x-left p {
+  color: #305c85;
+}
+#hero .x-content .x-left .action-hero {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .x-content .x-left .action-hero .btn-more {
+  width: 200px;
+  padding: 10px 20px;
+  background-color: #2c48d8;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#hero .x-content .x-left .action-hero .btn-more i {
+  font-size: 20px;
+}
+#hero .x-content .x-left .action-hero .btn-more:hover {
+  background-color: #223dc9;
+}
+#hero .x-content .x-left .action-hero .box-sosmed {
+  margin-top: 5px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+#hero .x-content .x-left .action-hero .box-sosmed span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#hero .x-content .x-left .action-hero .box-sosmed span:hover {
+  background-color: white;
+}
+#hero .x-content .x-right {
+  margin-top: 50px;
+  width: 48%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+#hero .x-content .x-right img {
+  width: 80%;
+}/*# sourceMappingURL=Hero.css.map */
