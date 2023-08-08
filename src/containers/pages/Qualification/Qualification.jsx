@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Qualification.css";
 import { GlobalConsumer } from "../../../config/context/Context";
 

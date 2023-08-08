@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
@@ -8,7 +11,6 @@ body {
   font-size: 15px;
   max-width: 100%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 code {
@@ -22,4 +24,17 @@ section {
 
 ul {
   list-style: none;
+}
+
+@media (max-width: 1024px) {
+  section {
+    min-height: 800px;
+  }
+}
+
+@media (max-width: 678px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }

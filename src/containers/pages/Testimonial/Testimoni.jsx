@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Testimoni.css";
 import { GlobalConsumer } from "../../../config/context/Context";
 import avtr from "../../../assets/img/icons/orang.jpg";

@@ -1,8 +1,13 @@
 import React, { Component, createContext } from "react";
-import avtr from "../../assets/img/icons/orang.jpg";
-import avtr2 from "../../assets/img/icons/orang2.jpg";
-import avtr3 from "../../assets/img/icons/orang3.jpg";
-import avtr4 from "../../assets/img/icons/orang4.jpg";
+import {
+  default as avtr,
+  default as avtr2,
+} from "../../assets/img/icons/user.png";
+// import avtr3 from "../../assets/img/icons/orang3.jpg";
+// import avtr4 from "../../assets/img/icons/orang4.jpg";
+import gambar1 from "../../assets/img/1.PNG";
+import gambar2 from "../../assets/img/2.PNG";
+// import gambar3 from "../../assets/img/3.PNG";
 
 // bikin context
 const rootContext = createContext();
@@ -16,56 +21,61 @@ const GlobalProvider = (ChildrenComp) => {
       qualification: {
         educationFormal: [
           {
-            jurusan: "Teknik Komputer dan Jaringan",
-            institusi: "SMK Negeri 1 Cijulang",
-            rangeWaktu: "2018 - 2021",
-          },
-          {
             jurusan: "Teknik Informatika",
             institusi: "Sekolah Tinggi Teknologi Bandung",
             rangeWaktu: "2021 - 2025",
+          },
+          {
+            jurusan: "Teknik Komputer dan Jaringan",
+            institusi: "SMK Negeri 1 Cijulang",
+            rangeWaktu: "2018 - 2021",
           },
         ],
         educationNonFormal: [
           {
             jurusan: "Junior Web Developer",
             institusi: "Progate",
-            rangeWaktu: "Juni 2021 - Agustus 2021",
+            rangeWaktu: "June 2021 - August 2021",
           },
           {
             jurusan: "Junior Pentesting",
             institusi: "Haxor Security",
-            rangeWaktu: "Juni 2021 - Agustus 2021",
+            rangeWaktu: "June 2021 - August 2021",
           },
         ],
         work: [
           {
-            jurusan: "Web Developer",
-            institusi: "CV Sundajaya Corp",
-            rangeWaktu: "Maret 2022 - Mei 2022",
-          },
-          {
-            jurusan: "Web Developer",
-            institusi: "Kominfo NTB",
-            rangeWaktu: "Juli 2022 - Agustus 2022",
-          },
-          {
             jurusan: "Backup Frontend Developer",
             institusi: "Telkom University",
-            rangeWaktu: "Seftember 2022 - Now",
+            rangeWaktu: "September 2022 - Now",
+          },
+          {
+            jurusan: "Frontend Developer",
+            institusi: "Felix Wibowo Design Interior",
+            rangeWaktu: "March 2022 - Now",
+          },
+          {
+            jurusan: "Web Developer",
+            institusi: "CV Sundajaya Corp",
+            rangeWaktu: "March 2022 - May 2022",
+          },
+          {
+            jurusan: "Network Technician",
+            institusi: "CV Magaze Wira Pratama Mutual Sinergi Infinite",
+            rangeWaktu: "September 2020 - December 2020",
           },
         ],
       },
       chooseQualification: [
         {
-          jurusan: "Teknik Komputer dan Jaringan",
-          jurusan: "SMK Negeri 1 Cijulang",
-          rangeWaktu: "2018 - 2021",
+          jurusan: "Teknik Informatika",
+          institusi: "Sekolah Tinggi Teknologi Bandung",
+          rangeWaktu: "2021 - 2025",
         },
         {
-          jurusan: "Teknik Informatika",
-          jurusan: "Sekolah Tinggi Teknologi Bandung",
-          rangeWaktu: "2021 - 2025",
+          jurusan: "Teknik Komputer dan Jaringan",
+          institusi: "SMK Negeri 1 Cijulang",
+          rangeWaktu: "2018 - 2021",
         },
       ],
       dataTestimoni: [
@@ -74,28 +84,28 @@ const GlobalProvider = (ChildrenComp) => {
           name: "Arshaka",
           profession: "UI/UX Designer",
           review:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni velit consequuntur, reprehenderit ducimus facilis libero quas voluptate harum ea dicta laudantium nulla tempore distinctio.",
+            "Collaborating with Misbah is very pleasant. He is fast and professional in completing projects, as well as providing useful input. The website created by Misbah is very good and has a fast loading speed. We recommend Misbah for any web project.",
         },
         {
           avatar: avtr2,
           name: "Yoga",
-          profession: "Founder CV Sunda Jaya Corp",
+          profession: "Manajer CV Sunda Jaya Corp",
           review:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni velit consequuntur, reprehenderit ducimus facilis libero quas voluptate harum ea dicta laudantium nulla tempore distinctio.",
+            "I am very happy with my cooperation with Misbah. He is very professional and responsive in handling change requests on our website. He also always provides innovative and creative solutions to the problems we face. We highly recommend Misbah for your next web project.",
+        },
+      ],
+      dataPortfolio: [
+        {
+          image: gambar1,
+          title: "Website Design Interior",
+          githubUrl: "https://github.com/misbahdevs/",
+          demoUrl: "https://designlix.netlify.app/",
         },
         {
-          avatar: avtr3,
-          name: "Pandi",
-          profession: "Staf Kominfo NTB",
-          review:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni velit consequuntur, reprehenderit ducimus facilis libero quas voluptate harum ea dicta laudantium nulla tempore distinctio.",
-        },
-        {
-          avatar: avtr4,
-          name: "Abang",
-          profession: "PIC Telkom University",
-          review:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto magni velit consequuntur, reprehenderit ducimus facilis libero quas voluptate harum ea dicta laudantium nulla tempore distinctio.",
+          image: gambar2,
+          title: "CV Sunda Jaya Corp Website",
+          githubUrl: "https://github.com/misbahdevs/",
+          demoUrl: "https://sundajayacorp.com/",
         },
       ],
     };

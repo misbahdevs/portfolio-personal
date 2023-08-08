@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
           </span>
           <span>
-            <a href="">
+            <a href="https://www.instagram.com/misbahhlmnr_/">
               <i className="uil uil-instagram"></i>
             </a>
           </span>

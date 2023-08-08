@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import BoxSkill from "./Child/BoxSkill";
 import "./Skills.css";
 
 const Skills = () => {
@@ -8,136 +9,66 @@ const Skills = () => {
         <h2>Skills</h2>
         <div className="content">
           <div className="x-left">
-            <div className="box-skill">
-              <h3>Frontend Development</h3>
-              <div className="list-skills">
-                <div className="skill">
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">HTML</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">CSS</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="skill">
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">Javascript</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">Bootstrap</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="skill">
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">Talwind</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">React</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <BoxSkill
+              title="Frontend Development"
+              data={[
+                {
+                  tech: "HTML",
+                  status: "Experienced",
+                },
+                {
+                  tech: "CSS",
+                  status: "Experienced",
+                },
+                {
+                  tech: "Javascript",
+                  status: "Experienced",
+                },
+                {
+                  tech: "Bootstrap",
+                  status: "Experienced",
+                },
+                {
+                  tech: "Talwind",
+                  status: "Experienced",
+                },
+                {
+                  tech: "React",
+                  status: "Experienced",
+                },
+              ]}
+            />
           </div>
           <div className="x-right">
-            <div className="box-skill">
-              <h3>Backend Development</h3>
-              <div className="list-skills">
-                <div className="skill">
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">PHP</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">MySQL</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="skill">
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">Node JS</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">Mongo DB</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="skill">
-                  <div className="box">
-                    <div>
-                      <i className="uil uil-check-circle"></i>
-                    </div>
-                    <div>
-                      <p className="name-list-skill">Firebase</p>
-                      <p className="desc-list-skill">Experienced</p>
-                    </div>
-                  </div>
-
-                  <div className="box"></div>
-                </div>
-              </div>
-            </div>
+            <BoxSkill
+              title="Backend Development"
+              data={[
+                {
+                  tech: "PHP",
+                  status: "Experienced",
+                },
+                {
+                  tech: "MySQL",
+                  status: "Experienced",
+                },
+                {
+                  tech: "Node JS",
+                  status: "Advanced",
+                },
+                {
+                  tech: "Mongo DB",
+                  status: "Advanced",
+                },
+                {
+                  tech: "Python",
+                  status: "Experienced",
+                },
+                {
+                  tech: "Firebase",
+                  status: "Experienced",
+                },
+              ]}
+            />
           </div>
         </div>
       </div>

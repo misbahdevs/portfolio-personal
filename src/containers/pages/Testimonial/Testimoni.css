@@ -22,6 +22,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 600px;
+  text-align: center;
 }
 #testimoni .x-content .content .box-testimoni .image {
   width: 70px;
@@ -47,4 +48,110 @@
 }
 #testimoni .x-content .content .box-testimoni p {
   color: #305c85;
+}
+
+@media (max-width: 1024px) {
+  #testimoni .x-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #testimoni .x-content h2 {
+    font-weight: 700;
+    color: #012b52;
+    margin-bottom: 30px;
+    padding-top: 150px;
+  }
+  #testimoni .x-content .content {
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  #testimoni .x-content .content .box-testimoni {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+  }
+  #testimoni .x-content .content .box-testimoni .image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 5px solid #305c85;
+    margin-bottom: 20px;
+  }
+  #testimoni .x-content .content .box-testimoni .image img {
+    width: 100%;
+  }
+  #testimoni .x-content .content .box-testimoni h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #012b52;
+  }
+  #testimoni .x-content .content .box-testimoni h5 {
+    font-weight: 500;
+    color: #305c85;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  #testimoni .x-content .content .box-testimoni p {
+    color: #305c85;
+  }
+}
+@media (max-width: 678px) {
+  #testimoni .x-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #testimoni .x-content h2 {
+    font-weight: 700;
+    color: #012b52;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+  #testimoni .x-content .content {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  #testimoni .x-content .content .box-testimoni {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+  }
+  #testimoni .x-content .content .box-testimoni .image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 5px solid #305c85;
+    margin-bottom: 20px;
+  }
+  #testimoni .x-content .content .box-testimoni .image img {
+    width: 100%;
+  }
+  #testimoni .x-content .content .box-testimoni h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #012b52;
+  }
+  #testimoni .x-content .content .box-testimoni h5 {
+    font-weight: 500;
+    color: #305c85;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  #testimoni .x-content .content .box-testimoni p {
+    color: #305c85;
+    text-align: center;
+  }
 }/*# sourceMappingURL=Testimoni.css.map */
